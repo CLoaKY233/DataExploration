@@ -1,41 +1,106 @@
 # Data Exploration with Pandas
 
-This project demonstrates various data exploration techniques using Pandas, a powerful data manipulation library in Python.
+## Overview
 
-## Current Contents
+This project is a comprehensive guide to data exploration techniques using Pandas, a powerful data manipulation library in Python. It's designed to help both beginners and intermediate users enhance their data analysis skills through practical examples and clear explanations.
 
-### 1. DataSelection.py
-This script showcases different methods to select specific columns from a pandas DataFrame. It covers:
-- Basic column selection
-- Using loc and iloc accessors
-- Conditional selection
+## Table of Contents
 
-### 2. TableJoin.py
-This script demonstrates various types of table joins in pandas, including:
-- Inner Join
-- Left Join
-- Right Join
-- Outer Join
+1. [Features](#features)
+2. [Documentation](#documentation)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Future Enhancements](#future-enhancements)
+7. [License](#license)
 
-## Coming Soon
+## Features
 
-We're actively working on expanding this project. Here are some topics we'll be covering in the near future:
+This project covers a wide range of data exploration techniques, including:
 
-- ER Diagrams: Understanding and creating Entity-Relationship diagrams
-- Primary and Secondary Keys: Exploring the concepts and implementation
-- Common Data Among CSV Files: Techniques to find shared data across multiple CSV files
-- Aggregate Results: Performing operations like sum, average, max, and min
-- Window Functions: Implementing SQL-like window functions in pandas
-- Date Manipulation: Working with and transforming date and time data
+- **Data Selection**: Various methods to select and filter data from DataFrames
+- **Table Joins**: Different types of joins to combine data from multiple sources
+- **Common Fields Analysis**: Techniques to identify and work with shared data across multiple CSV files
+- **Aggregation**: Performing summary statistics and grouping operations
+- **Window Functions**: Implementing SQL-like window functions for advanced analytics
+- **Date Manipulation**: Working with and transforming date and time data (Coming Soon)
 
-Stay tuned for updates!
+Each feature is demonstrated through Python scripts and explained in detail in the accompanying documentation.
 
-## How to Use
+## Documentation
 
-1. Clone this repository
-2. Ensure you have Python and pandas installed
-3. Run each script individually to see the demonstrations and outputs
+Detailed explanations for each concept are available in the `Docs` folder:
+
+- [Data Selection Guide](Docs/DataSelection.md)
+- [Table Joins Explained](Docs/TableJoin.md)
+- [Working with Common Fields](Docs/CommonFields.md)
+- [Aggregating Results](Docs/AggregatingResults.md)
+- [Window Functions in Pandas](Docs/WindowFunctions.md)
+
+These documents provide in-depth explanations, code breakdowns, and key takeaways for each topic.
+
+## Installation
+
+To use this project, follow these steps to set up your environment:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/data-exploration-pandas.git
+   cd data-exploration-pandas
+   ```
+
+2. Create a virtual environment:
+   - For Windows:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+   - For macOS and Linux:
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+After installation, you can run each script individually to see demonstrations and outputs:
+
+1. Ensure your virtual environment is activated.
+
+2. Run a script using Python:
+   ```
+   python DataSelection.py
+   ```
+
+3. View the output in your console.
+
+4. Refer to the corresponding markdown file in the `Docs` folder for detailed explanations of the concepts demonstrated in each script.
 
 ## Contributing
 
-Feel free to fork this repository and submit pull requests with improvements or additional data exploration techniques.
+We welcome contributions to improve this project! Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear, descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request with a comprehensive description of your changes.
+
+Please ensure your code adheres to the project's styling guidelines and includes appropriate documentation.
+
+## Future Enhancements
+
+We're constantly working to improve and expand this project. Upcoming features include:
+
+- ER Diagrams: Understanding and creating Entity-Relationship diagrams
+- Primary and Secondary Keys: Exploring the concepts and implementation in Pandas
+- Advanced Date Manipulation Techniques
+- Interactive Jupyter Notebooks for each concept
+- Integration with data visualization libraries
+
+Stay tuned for these exciting updates!
