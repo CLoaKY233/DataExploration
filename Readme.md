@@ -12,7 +12,6 @@ This project is a comprehensive guide to data exploration techniques using Panda
 4. [Usage](#usage)
 5. [Contributing](#contributing)
 6. [Future Enhancements](#future-enhancements)
-7. [License](#license)
 
 ## Features
 
@@ -23,7 +22,6 @@ This project covers a wide range of data exploration techniques, including:
 - **Common Fields Analysis**: Techniques to identify and work with shared data across multiple CSV files
 - **Aggregation**: Performing summary statistics and grouping operations
 - **Window Functions**: Implementing SQL-like window functions for advanced analytics
-- **Date Manipulation**: Working with and transforming date and time data (Coming Soon)
 
 Each feature is demonstrated through Python scripts and explained in detail in the accompanying documentation.
 
@@ -45,7 +43,7 @@ To use this project, follow these steps to set up your environment:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/data-exploration-pandas.git
+   git clone https://github.com/CLoaKY233/DataExploration.git
    cd data-exploration-pandas
    ```
 
@@ -71,6 +69,11 @@ To use this project, follow these steps to set up your environment:
 After installation, you can run each script individually to see demonstrations and outputs:
 
 1. Ensure your virtual environment is activated.
+
+2. Navigate to the `WithPandas` folder:
+   ```
+   cd WithPandas
+   ```
 
 2. Run a script using Python:
    ```
